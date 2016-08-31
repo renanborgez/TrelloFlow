@@ -10,7 +10,7 @@ var BUTTON_SHOW_ALL_LISTS_ID = 'show-all-button';
 var BOARD_HEADER_SELECTOR = '.board-header';
 
 var HIDE_TEXT = 'Hide this list';
-var SHOW_TEXT = 'Showw all lists again';
+var SHOW_TEXT = 'Show all lists again';
 
 var DATA_INITIALIZE_OBJECT = {
   columns: []
