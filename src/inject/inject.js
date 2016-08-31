@@ -21,7 +21,7 @@ function TrelloFlow(){
   this.columns = document.querySelectorAll(COLUMNS_SELECTOR);
   
   var data = JSON.parse(localStorage.getItem(DATABASE_NAME));
-  if(!data.columns){
+  if(!data || !data.columns){
     localStorage.setItem(DATABASE_NAME, JSON.stringify(DATA_INITIALIZE_OBJECT));
   }
 }
